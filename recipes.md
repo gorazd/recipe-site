@@ -61,7 +61,8 @@ Pour the banana oat smoothie into two glasses to serve.
 ## Berryfast smoothie
 
 source: bbc good food
-Photo by <a href="https://unsplash.com/@dtuksar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Denis Tuksar</a> on <a href="https://unsplash.com/s/photos/smoothie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@claudia_soares?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Soares</a> on <a href="https://unsplash.com/s/photos/smoothie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 Make the most of the berry season with a glass of fruity goodness
 
