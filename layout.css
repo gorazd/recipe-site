@@ -15,9 +15,15 @@ header, main, footer, aside {
   }
 }
 
-
 header {
+  text-align: center;
+  background-color: #f9f7e8
+}
 
+header h2 {
+  margin-bottom: 0;
+
+  font-size: 200%;
 }
 
 main {

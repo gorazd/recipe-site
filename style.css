@@ -35,29 +35,31 @@ body {
 
       KEYWORD: red, green, blue,
   */
-  background-color: #111111;
+  background-color: #eee;
   /* typography */
   font-family: Arial, Helvetica, sans-serif;
-  color: #eeeeee;
+  color: #61bfad;
 }
 
 /*
   TYPOGRAPHIC ELEMENTS
 */
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h2 {
 
-}
 p {
+  margin: 0 0 10px 0;
+}
 
-}
-/* link */
+/* links */
 a {
-  color: #ff0000;
+  color: #167c80;
 }
-/* image */
+
+/* images */
 img {
   /* responsive image trick */
   width: 100%;
