@@ -16,8 +16,19 @@ header, main, footer, aside {
 }
 
 header {
+  width: 100%;
+  min-height: 35vh;
+
   text-align: center;
-  background-color: #f9f7e8
+
+  background-color: #000;
+
+  background-image: url(images/sara-julie-9Gz5bMWdGYE-unsplash.jpg);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header h2 {
