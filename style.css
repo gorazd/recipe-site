@@ -47,7 +47,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
 
+  font-weight: normal;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #f9f7e8;
+  background-color: #61bfad;
+}
+
+h1, h2 {
+  padding: 20px;
+
+  text-align: center;
+}
+
+h2 {
+  font-family: monospace;
 }
 
 p {

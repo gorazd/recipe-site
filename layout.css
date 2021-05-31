@@ -3,21 +3,22 @@
 */
 
 /* multiple selectors are divided by comma */
-header, main, footer, aside {
+header, section, footer, aside {
   padding: 20px;
 }
 
 /* media query */
 /* that only applies if the screen is smaller than 800px */
 @media (max-width: 800px) {
-  header, main, footer, aside {
+  header, section, footer, aside {
     padding: 10px;
   }
 }
 
 header {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   width: 100%;
-  min-height: 35vh;
 
   text-align: center;
 
@@ -32,7 +33,8 @@ header {
 }
 
 header h2 {
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 
   font-size: 200%;
 }
@@ -45,6 +47,7 @@ footer {
 
 aside {
 }
+
 /* test of specificity */
 ul {
 }
@@ -53,10 +56,60 @@ ul {
   NAVIGATION
 */
 nav {
-
 }
+
 /* when the selectors are listed without the comma
 we are selecting the children of the previous selector  */
 nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px 0;
+  display: block;
+
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  padding: 5px 10px;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #61bfadaa;
+}
+
+@media (max-width: 800px) {
+  nav ul li a {
+    font-size: 11px;
+  }
+}
+
+/* Sections */
+section {
+
+}
+
+section#about {
+  min-height: 70vh;
+
+  background-color: #000;
+  background-image: url(images/sara-julie-9Gz5bMWdGYE-unsplash.jpg);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section img {
+  float: right;
+}
+
+/* Recipes */
+article {
 
 }
